@@ -467,3 +467,178 @@ font-size: 17px;
   font-size: 22px;
   }
 }
+@media (max-width: 1400px) {
+  .creator {
+    justify-content: space-between;
+    gap: 15px;
+}
+}
+@media (max-width: 936px) {
+  .creator .box {
+    width: 200px;
+    height: 205px;
+}
+}
+@media (max-width: 810px) {
+  .creator .box {
+    width: 300px;
+    height: 100px;
+    flex-direction: row;
+  }
+  .creator .box img {
+    max-width: 70px;
+  }
+  .creator {
+    justify-content: space-between;
+    gap: 8px;
+  }
+  .creator .box h3{
+    width: 25px;
+    height: 25px;
+    font-size: 15px;
+    top: 10px;
+    left: 10px;
+}
+.cretor-box {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.creator-title {
+  padding-block: 20px;
+}
+#creator {
+  padding-top: 20px;
+}
+.creator-text p {
+  font-size: 16px;
+  letter-spacing: 0px;
+}
+.creator-text h1{
+  font-size: 36px;
+}
+.creator-title button{
+   width: 240px;
+   height: 50px;
+}
+}
+@media (max-width: 762px) {
+  .creator .box img {
+      max-width: 55px;
+  }
+  .creator .box h1 {
+    font-size: 20px;
+}
+.creator .box p {
+    font-size: 13px;  
+}
+.creator .box p span {
+  font-size: 13px;
+}
+.creator .box {
+  width: 240px;
+  height: 78px;
+}
+}
+@media (max-width: 630px) {
+  .creator .box {
+    justify-content: start;
+  }
+  .creator .box {
+    width: 100%;
+    height: 130px;
+}
+.creator .box img {
+  max-width: 100px;
+  padding-left: 30px;
+}
+.creator .box h1 {
+  font-size: 30px;
+}
+.creator .box p {
+  font-size: 20px;
+}
+.creator .box p span {
+  font-size: 20px;
+}
+.creator .box h3 {
+  width: 32px;
+  height: 32px;
+  top: 15px;
+  left: 15px;
+}
+#creator {
+  position: relative;
+  padding-bottom: 100px;
+}
+.creator {
+  gap: 15px;
+}
+.creator-title button {
+  position: absolute;
+  width: 80%;
+  top: 870px;
+}
+}
+@media (max-width: 527px) {
+  .creator .box {
+    height: 100px;
+  }
+  .creator .box img {
+    max-width: 80px;
+    padding-left: 19px;
+ }
+ .creator .box h3 {
+  width: 28px;
+  height: 28px;
+  top: 10px;
+  left: 10px;
+}
+.creator .box h1 {
+  font-size: 26px;
+}
+.creator .box p span {
+  font-size: 18px;
+}
+.creator .box p {
+  font-size: 18px;
+}
+.creator-title button {
+  top: 739px;
+}
+}
+@media (max-width: 432px) {
+  .creator .box img {
+    max-width: 70px;
+}
+.creator .box h1 {
+  font-size: 23px;
+}
+.creator .box p span {
+  font-size: 16px;
+}
+.creator .box p {
+  font-size: 16px;
+}
+.creator .box {
+  height: 90px;
+}
+.creator-title button {
+  top: 690px;
+}
+}
+@media (max-width: 378px) {
+  .creator .box p span {
+    font-size: 15px;
+  }
+  .creator .box p {
+    font-size: 15px;
+  }
+  .creator .box h1 {
+    font-size: 21px;
+  }
+  .creator .box img {
+    max-width: 60px;
+}
+}
+
