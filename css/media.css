@@ -439,8 +439,10 @@ font-size: 17px;
     display: none;
   }
   .collection .box {
-    width: 500px;
-    height: 800px;
+    max-width: 500px;
+    width: 100%;
+    max-height: 800px;
+    height: 100%;
 }
 .collection .box .disco img{
   width: 150px;
