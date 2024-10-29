@@ -329,3 +329,60 @@ nav button {
 .cretor-box {
   text-align: center;
 }
+#browse {
+  padding-block: 50px;
+}
+.browse-title {
+  padding-block: 50px;
+  h1 {
+    font-size: 38px;
+    font-weight: 600;
+  }
+}
+.browse {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 96px;
+}
+.browse .box {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 240px;
+  height: 316px;
+  background: #3b3b3b;
+  border-radius: 20px;
+  .cate1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 76%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+  }
+}
+.browse .box {
+  img {
+    width: 240px;
+    height: 240px;
+  }
+}
+.browse .box {
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 26px 0 26px 30px;
+  }
+}
+.cate1:hover {
+  display: none;
+}
