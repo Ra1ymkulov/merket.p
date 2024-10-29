@@ -791,5 +791,25 @@ font-size: 17px;
   padding-block: 20px;
 }
 }
+@media (max-width: 391px) {
+  .browse .box {
+    width: 130px;
+    height: 174px;
+  }
+  .browse .box img {
+    width: 130px;
+    height: 130px;
+  }
+  .browse .box .cate1 {
+    height: 76%;
+  }
+  .browse .box .cate1  img {
+    width: 60px;
+  }
+  .browse .box h1 {
+    font-size: 13px;
+}
+}
+
 
 
