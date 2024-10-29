@@ -1,0 +1,323 @@
+@media (max-width: 1400px) {
+  #header .container {
+    width: 90%;
+  }
+  nav {
+    gap: 27px;
+  }
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 1200px) {
+  nav {
+    gap: 27px;
+  }
+}
+@media (max-width: 850px) {
+  nav {
+    display: none;
+  }
+  .burger {
+    display: flex;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  #header {
+    padding-block: 25px;
+  }
+}
+@media (max-width: 440px) {
+  #header {
+    padding-block: 15px;
+  }
+  .burger img {
+    width: 20px;
+    height: 20px;
+  }
+  .header-logo img:nth-child(1) {
+    max-width: 19px;
+  }
+  .header-logo img:nth-child(2) {
+    max-width: 120px;
+  }
+}
+@media (max-width: 1220px) {
+  .discover-text h1 {
+    font-size: 50px;
+  }
+  .discover-text p {
+    width: 90%;
+    font-size: 20px;
+  }
+  .auctions .box h1 {
+    font-size: 25px;
+  }
+  .auctions .box h2 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 1143px) {
+  .auctions .box h1 {
+    font-size: 23px;
+  }
+  .auctions .box h2 {
+    font-size: 20px;
+  }
+  .discover-text h1 {
+    font-size: 43px;
+  }
+  .discover-text p {
+    width: 86%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1107px) {
+  .discover-image {
+    max-width: 380px;
+    max-height: 380px;
+  }
+}
+@media (max-width: 938px) {
+  .auctions .box h1 {
+    font-size: 20px;
+  }
+  .auctions .box h2 {
+    font-size: 16px;
+  }
+  .discover-text h1 {
+    font-size: 35px;
+  }
+  .discover-text p {
+    width: 81%;
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .discover button {
+    width: 200px;
+    height: 49px;
+    font-size: 14px;
+    img {
+      width: 15px;
+    }
+  }
+  .discover-image {
+    max-width: 330px;
+    max-height: 330px;
+  }
+  .space {
+    h1 {
+      font-size: 20px;
+      padding: 5px 0px 0 10px;
+    }
+  }
+  .space .space-avatar {
+    gap: 10px;
+    padding: 5px 0px 6px 10px;
+  }
+}
+@media (max-width: 811px) {
+  .discover {
+    gap: 15px;
+  }
+  .discover-text h1 {
+    font-size: 32px;
+  }
+  .discover-text {
+    gap: 10px;
+  }
+  .auctions .box h2 {
+    font-size: 13px;
+  }
+}
+@media (max-width: 720px) {
+  .auctions .box h2 {
+    font-size: 10px;
+  }
+  .auctions .box h1 {
+    font-size: 19px;
+  }
+  .discover-image {
+    max-width: 300px;
+    max-height: 300px;
+  }
+  .discover-text p {
+    max-width: 408px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 630px) {
+  .discover {
+    flex-direction: column;
+    align-content: start;
+  }
+  .discover-text h1 {
+    display: none;
+  }
+  .discover-text::before {
+    content: "Discover digital art & Collect NFTs";
+    color: #fff;
+    font-size: 45px;
+    font-weight: 600;
+  }
+  .discover-text p {
+    max-width: none;
+    width: 100%;
+    font-size: 23px;
+    line-height: 30px;
+  }
+  #discover {
+    padding-bottom: 227px;
+}
+  .discover-image {
+    max-width: 100%;
+    max-height: 500px;
+  }
+  .space {
+    h1 {
+      font-size: 25px;
+      padding: 18px 0px 0 15px;
+    }
+  }
+  .space .space-avatar {
+    gap: 10px;
+    padding: 11px 0px 10px 15px;
+  }
+  .discover-text button {
+    position: absolute;
+    top: 880px;
+    width: 80%;
+  }
+  .auctions h1{
+   display: flex;
+  }
+  .auctions {
+    position: absolute;
+    top: 960px;
+    width: 80%;
+    gap: 50px;
+  }
+  .auctions .box h2 {
+    font-size: 26px;
+  }
+  .auctions .box h1 {
+    font-size: 40px;
+}
+}
+@media (max-width: 590px) {
+  .auctions {
+    gap: 34px;
+    top: 920px;
+  }
+  .auctions .box h1 {
+  font-size: 26px;
+  }
+  .auctions .box h2 {
+    font-size: 23px;
+}
+.discover-text button {
+  top: 848px;
+}
+}
+
+@media (max-width: 525px) {
+  .discover-text::before {
+    font-size: 37px;
+  }
+  .discover-text p {
+    width: 100%;
+  }
+  .auctions .box h2 {
+    font-size: 21px;
+  }
+  .discover-text button {
+    top: 810px;
+}
+.auctions {
+  gap: 32px;
+  top: 875px;
+}
+#discover {
+  padding-bottom: 168px;
+}
+}
+@media (max-width: 480px) {
+  .discover-text button {
+      top: 782px;
+  }
+  .auctions {
+    gap: 32px;
+    top: 854px;
+}
+}
+@media (max-width: 451px) {
+  .discover-text::before {
+    font-size: 32px;
+  }
+  .discover-text p {
+    font-size: 16px;
+  }
+  .discover-text button {
+    top: 724px;
+}
+.auctions {
+  gap: 21px;
+  top: 791px;
+}
+}
+@media (max-width: 435px) {
+  .discover-text button {
+      top: 680px;
+  }
+  .auctions {
+    gap: 21px;
+    top: 748px;
+}
+.auctions .box h1 {
+  font-size: 23px;
+}
+.auctions .box h2 {
+  font-size: 18px;
+}
+.discover-text::before {
+  font-size: 30px;
+}
+.discover-text p {
+  font-size: 14px;
+}
+.space {
+  h1 {
+      font-size: 22px;
+      padding: 18px 0px 0 15px;
+  }
+}
+  .space .space-avatar h2 {
+    font-size: 15px;
+  }
+}
+@media (max-width: 412px) {
+  .discover-text button {
+    top: 653px;
+}
+.auctions {
+  gap: 21px;
+  top: 716px;
+}
+}
+@media (max-width: 375px) {
+  .discover-text button {
+      top: 626px;
+  }
+  .auctions {
+    gap: 21px;
+    top: 687px;
+  }
+  .auctions .box h1 {
+    font-size: 20px;
+}
+.auctions .box h2 {
+  font-size: 16px;
+}
+}
