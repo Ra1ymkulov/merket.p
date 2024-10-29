@@ -383,6 +383,9 @@ nav button {
     padding: 26px 0 26px 30px;
   }
 }
-.cate1:hover {
+.browse .box:hover{
+ .cate1{
   display: none;
+ }
 }
+
