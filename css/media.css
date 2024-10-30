@@ -1048,3 +1048,86 @@ font-size: 17px;
     top: 1430px;
   }
 }
+@media (max-width: 760px) {
+  .auction h1{
+        font-size: 27px;
+}
+.auction ul{
+      gap: 23px;
+}
+.auction {
+  max-width: 200px;
+  padding: 15px 15px;
+}
+.magic-back {
+  max-height: 500px;
+}
+.magic {
+  padding-top: 220px;
+}
+#magic {
+  height: 500px;
+  padding-bottom: 35px;
+}
+}
+@media (max-width: 630px) {
+  .magic {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .magic {
+    padding-top: 51px;
+}
+.magic-text .shroomie{
+  max-width: 205px;
+  width: 100%;
+  height: 52px;
+}
+.magic-text h1{
+      font-size: clamp(1.25rem, -0.04rem + 6.45vw, 2.5rem);
+      padding-bottom: 30px;
+}
+.magic-text button{
+  position: absolute;
+  width: 80%;
+  top: 400px;
+}
+.auction {
+  max-width: 311px;
+  padding: 20px 20px;
+}
+.auction h1 {
+  font-size: clamp(1.25rem, -0.04rem + 6.45vw, 2.5rem);
+}
+.auction ul {
+  gap: 52px;
+}
+}
+@media (max-width: 550px) {
+  .auction {
+    max-width: 257px;
+}
+.magic-text button {
+  top: 379px;
+  height: 50px;
+}
+.auction ul {
+  gap: 25px;
+}
+}
+@media (max-width: 432px) {
+  .auction {
+      max-width: 203px;
+  }
+  .auction ul {
+    gap: 8px;
+}
+.auction ul li:nth-child(2) {
+  padding-left: 5px;
+}
+}
+@media (max-width: 395px) {
+  .auction {
+    max-width: 186px;
+}
+}
