@@ -388,4 +388,98 @@ nav button {
   display: none;
  }
 }
+#explore {
+  padding: 50px 0 120px 0;
+}
+.explore-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-block: 60px;
+  button {
+    width: 247px;
+    height: 60px;
+    background: none;
+    border: 2px solid hsla(266, 100%, 67%, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+.explore-text {
+  h1 {
+    font-size: 38px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 15px;
+  }
+}
+.explore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.explore .box{
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  width: 330px;
+  height: 469px;
+  background: hsla(0, 0%, 23%, 1);
+  border-radius: 20px;
+}
+.explore .box h1{
+  font-size: 22px;
+  font-weight: 600;
+  padding: 15px 25px 0 25px;
+}
+.explore .box img{
+  width: 100%;
+  max-height: 296px;
+  height: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.moon {
+  display: flex;
+  gap: 15px;
+  padding: 0 25px 10px 25px;
+}
+.explore .box .moon img{
+  width: 24px;
+  height: 24px;
+}
+.moon h2{
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Space Mono;
+  padding: none;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 25px;
+}
+.price ul li:first-child {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsla(60, 0%, 52%, 1);
+  font-family: Space Mono;
+}
+.price ul li {
+  font-size: 16px;
+  font-weight: 400;
+  color: hsla(0, 0%, 100%, 1);
+  font-family: Space Mono;
+  line-height: 28px;
+}
 
