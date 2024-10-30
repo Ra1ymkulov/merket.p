@@ -389,7 +389,7 @@
 }
 }
 @media (max-width: 810px) {
-  #box-none {
+  #box-none1 {
     display: none;
   }
   .collection .box {
@@ -435,7 +435,7 @@ font-size: 17px;
 }
 }
 @media (max-width: 630px) {
-  #box-none1{
+  #box-none3{
     display: none;
   }
   .collection .box {
