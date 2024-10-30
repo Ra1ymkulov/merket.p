@@ -1266,6 +1266,13 @@ font-size: 17px;
   font-size: clamp(0.75rem, 0.487rem + 1.32vw, 1.063rem);
   line-height: 25px;
 }
+.join-text input {
+  height: 55px;
+}
+.join-text button {
+  top: 67px;
+  height: 55px;
+}
 }
 @media (max-width: 474px) {
   .work .box p {
