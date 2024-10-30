@@ -588,3 +588,125 @@ nav button {
 .auction ul li:nth-child(3) {
   padding-left: 3px;
 }
+#work {
+  padding-bottom: 50px;
+}
+.work {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-block: 50px;
+}
+.work-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+}
+.work-title h1 {
+  font-weight: 600;
+  font-size: clamp(1.75rem, 1.155rem + 1.59vw, 2.375rem);
+}
+.work-title p {
+  font-weight: 400;
+  font-size: 18px;
+}
+.work .box {
+  max-width: 330px;
+  width: 100%;
+  max-height: 439px;
+  height: 100%;
+  background: hsla(0, 0%, 23%, 1);
+  border-radius: 20px;
+  padding: 30px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+}
+.work-image {
+  max-width: 250px;
+  width: 100%;
+  max-height: 250px;
+  height: 100%;
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+.work .box h1 {
+  font-size: clamp(1.25rem, 0.655rem + 1.59vw, 1.875rem);
+  font-weight: 600;
+  line-height: 22px;
+  padding-block: 20px;
+}
+.work .box p {
+  font-size: clamp(0.75rem, 0.393rem + 0.95vw, 1.125rem);
+  font-weight: 400;
+  line-height: 22px;
+}
+/*! ---------------------------------- часть weekly ---------------------------------- */
+.join-box {
+  width: 90%;
+  max-height: 430px;
+  height: 100%;
+  background: hsla(0, 0%, 23%, 1);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 34px;
+  padding: 50px 50px;
+  img {
+    max-width: 425px;
+    width: 100%;
+    max-height: 310px;
+    height: 100%;
+  }
+}
+.join-text {
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* position: relative; */
+  gap: 30px;
+  h1 {
+    font-size: clamp(1.625rem, 1.03rem + 1.59vw, 2.25rem);
+    font-weight: 600;
+  }
+  p {
+    font-size: clamp(1rem, 0.643rem + 0.95vw, 1.375rem);
+    font-weight: 400;
+  }
+  input {
+    width: 100%;
+    height: 55px;
+    background: hsla(0, 0%, 100%, 1);
+    border-radius: 20px;
+    border: none;
+  }
+  input::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color: hsla(0, 0%, 17%, 1);
+    padding-left: 20px;
+  }
+  button {
+    width: 211px;
+    height: 56px;
+    background: hsla(266, 100%, 67%, 1);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+.input-box {
+  position: relative;
+}

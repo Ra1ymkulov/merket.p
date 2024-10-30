@@ -1131,3 +1131,144 @@ font-size: 17px;
     max-width: 186px;
 }
 }
+@media (max-width: 1400px) {
+.work .box {
+  max-width: 261px;
+  max-height: 367px;
+  gap: 0;
+}
+}
+@media (max-width: 1211px) {
+  .join-text {
+    max-width: 407px;
+}
+.join-box img{
+      max-width: 330px;
+}
+.work .box {
+  max-width: 200px;
+  max-height: 367px;
+}
+.work-image {
+  max-width: 150px;
+  max-height: 150px;
+}
+.work .box h1 {
+  font-size: 25px;
+  line-height: 24px;
+  padding-block: 10px;
+}
+.work .box p{
+  font-size: 16px;
+  line-height: 24px;
+}
+#magic {
+  padding-bottom: 20px;
+}
+}
+@media (max-width: 1181px) {
+  .join-text {
+    max-width: 323px;
+    gap: 7px;
+  }
+  .join-text button {
+        width: 100%;
+        top: 64px;
+}
+}
+@media (max-width: 1040px) {
+  .join-box {
+    padding: 50px 39px;
+}
+}
+@media (max-width: 975px) {
+  .work .box {
+    max-width: 140px;
+    max-height: 367px;
+  padding: 20px 20px;
+
+}
+.work .box h1 {
+  font-size: 17px;
+  line-height: 20px;
+  padding-block: 10px;
+}
+.work .box p {
+  font-size: 11px;
+  line-height: 15px;
+}
+.join-box img {
+  max-width: 265px;
+}
+.join-text h1 {
+      font-size: 25px;
+      font-weight: 600;
+}
+.join-text p {
+  font-size: 17px;
+  font-weight: 400;
+}
+.join-text input{
+      height: 36px;
+}
+.join-text button{
+  top: 43px;
+  height: 36px;
+}
+.join-text {
+  max-width: 263px;
+  gap: 7px;
+}
+}
+@media (max-width: 808px) {
+  .join-box {
+    padding: 40px 32px;
+}
+.join-box img {
+  max-width: 241px;
+}
+}
+@media (max-width: 678px) {
+  .work .box {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    max-height: 367px;
+    padding: 20px 20px;
+}
+.work-text {
+  text-align: start;
+}
+.join-box {
+  flex-direction: column;
+  background: none;
+  padding: 0;
+  width: 100%;
+}
+.join-box img {
+  max-width: 100%;
+}
+.join-text {
+  max-width: 100%;
+  gap: 7px;
+}
+.work {
+  gap: 20px;
+  padding-bottom: 0px;
+}
+.work .box {
+  gap: 20px;
+}
+.work .box h1 {
+  font-size: clamp(1.25rem, 0.934rem + 1.58vw, 1.625rem);
+}
+.work .box p {
+  font-size: clamp(0.75rem, 0.487rem + 1.32vw, 1.063rem);
+  line-height: 25px;
+}
+}
+@media (max-width: 474px) {
+  .work .box p {
+      line-height: 16px;
+  }
+}
